@@ -1,3 +1,44 @@
 @import 'tailwindcss/dist/base.css';
 @import 'tailwindcss/dist/components.css';
 @import 'tailwindcss/dist/utilities.css';
+
+
+body{
+    background-color:#9dd4499c;
+    border: solid green;
+    border-radius: 30px;
+}
+
+
+.md\:flex {
+    display: flex;
+    border: solid #008000c7 7px;
+    border-radius: 51px;
+    margin: 1px 3px 5px 3px;
+}
+
+.text-base{
+    color: #125612;
+    font-weight: bold;
+}
+.mt-4 {
+    color: #4b5563;
+}
+
+.text-lg {
+    font-size: 1.50rem;
+    line-height: 1.75rem;
+    font-weight: bolder;
+}
+
+.text-gray-600 {
+    --tw-text-opacity: 1;
+    color: rgba(75, 85, 99, var(--tw-text-opacity));
+    font-size: larger;
+    margin-top: 1rem;
+}
+
+.md\:w-24 {
+    width: 9rem;
+    height: 8rem;
+}
