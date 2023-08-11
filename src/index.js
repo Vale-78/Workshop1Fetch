@@ -7,6 +7,7 @@ const formatPrice = (price) =>
     currency: "USD",
   }).format(price);
 
+  //en cuaderno 7 lo hice con promesas, como en clase. Es más fácil.
 !(async function () {
   const response = await fetch(`${baseUrl}/api/avo`);
   // 💡 More about Spread: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
